@@ -49,7 +49,7 @@ def show_storage():
                 return_list.append(path +data)
             else:
                 return_list.append(path + os.path.sep + data)
-    except Exception, ex:
+    except Exception as ex:
         abort(400, json.dumps({"error": str(ex)}) )
     code = get_html_table(return_list)
     return code
