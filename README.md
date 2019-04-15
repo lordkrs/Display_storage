@@ -20,4 +20,5 @@ Run and Usage:
                                                 
 
 Note: 1) In Order to make your storage available to your friends, you all should be in same network
+      
       2) You can get your IP------windows(ipconfig)----linux(ifconfig)----android(Settings->About Phone->status->ip_address)
